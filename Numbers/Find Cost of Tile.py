@@ -15,7 +15,9 @@ if mesurmentOfTile == 'm' and mesurmentOfRoom == 'cm':
 
     pice =areaOfRoom /areaTile
     pice=round(pice)
-    print(pice)
+    cost = input("how much is the tiles: ")
+    price = pice *cost
+    print("you need ",pice," tiles \nit will cost ",price)
 elif mesurmentOfTile == 'cm' and mesurmentOfRoom == 'm':
     length=int(input("the length of tile: "))
     width=int(input("the width of tile: ")) 
@@ -29,7 +31,9 @@ elif mesurmentOfTile == 'cm' and mesurmentOfRoom == 'm':
 
     pice =areaOfRoom /areaTile
     pice=round(pice)
-    print(pice)
+    cost = input("how much is the tiles: ")
+    price = pice *cost
+    print("you need ",pice," tiles \nit will cost ",price)
 elif mesurmentOfTile == 'm' and mesurmentOfRoom == 'm':
     length=int(input("the length of tile: "))
     width=int(input("the width of tile: ")) 
@@ -44,7 +48,9 @@ elif mesurmentOfTile == 'm' and mesurmentOfRoom == 'm':
 
     pice =areaOfRoom /areaTile
     pice=round(pice)
-    print(pice)
+    cost = input("how much is the tiles: ")
+    price = pice *cost
+    print("you need ",pice," tiles \nit will cost ",price)
 
 elif mesurmentOfTile == 'cm' and mesurmentOfRoom == 'cm':
     length=int(input("the length of tile: "))
@@ -60,6 +66,9 @@ elif mesurmentOfTile == 'cm' and mesurmentOfRoom == 'cm':
 
     pice =areaOfRoom /areaTile
     pice=round(pice)
-    print("you need ",pice," tiles")
+    cost = input("how much is the tiles: ")
+    price = pice *cost
+    print("you need ",pice," tiles \nit will cost ",price)
+
 else:
     print("your input is not correct Try agin!!!")
