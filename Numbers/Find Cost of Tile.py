@@ -1,3 +1,10 @@
+'''
+Auteur = Abyselom Tibebe
+Date = 23-10 2022
+
+name : Tile lengthe calculate and cost
+'''
+
 mesurmentOfTile=input("for meter 'm' ,for centimeter 'cm'")
 mesurmentOfRoom=input("for meter 'm' ,for centimeter 'cm'")
 gapBetweenTile=int(input("the gup b/n tiles: "))
@@ -15,7 +22,7 @@ if mesurmentOfTile == 'm' and mesurmentOfRoom == 'cm':
 
     pice =areaOfRoom /areaTile
     pice=round(pice)
-    cost = input("how much is the tiles: ")
+    cost = int(input("how much is the tiles: "))
     price = pice *cost
     print("you need ",pice," tiles \nit will cost ",price)
 elif mesurmentOfTile == 'cm' and mesurmentOfRoom == 'm':
@@ -31,7 +38,7 @@ elif mesurmentOfTile == 'cm' and mesurmentOfRoom == 'm':
 
     pice =areaOfRoom /areaTile
     pice=round(pice)
-    cost = input("how much is the tiles: ")
+    cost = int(input("how much is the tiles: "))
     price = pice *cost
     print("you need ",pice," tiles \nit will cost ",price)
 elif mesurmentOfTile == 'm' and mesurmentOfRoom == 'm':
@@ -48,8 +55,9 @@ elif mesurmentOfTile == 'm' and mesurmentOfRoom == 'm':
 
     pice =areaOfRoom /areaTile
     pice=round(pice)
-    cost = input("how much is the tiles: ")
-    price = pice *cost
+    
+    cost = int(input("how much is the tiles: "))
+    price = pice * cost
     print("you need ",pice," tiles \nit will cost ",price)
 
 elif mesurmentOfTile == 'cm' and mesurmentOfRoom == 'cm':
@@ -66,7 +74,7 @@ elif mesurmentOfTile == 'cm' and mesurmentOfRoom == 'cm':
 
     pice =areaOfRoom /areaTile
     pice=round(pice)
-    cost = input("how much is the tiles: ")
+    cost = int(input("how much is the tiles: "))
     price = pice *cost
     print("you need ",pice," tiles \nit will cost ",price)
 
