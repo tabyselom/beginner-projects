@@ -1,4 +1,7 @@
 '''
+Auteur = Abyselom Tibebe
+Date = 23-10 2022
+
 name =fibonacci sequnce
 accept the last numper place and generate fibonacci sequnce up to the the last number
 '''

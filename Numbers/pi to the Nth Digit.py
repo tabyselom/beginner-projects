@@ -1,4 +1,7 @@
 '''
+Auteur = Abyselom Tibebe
+Date = 23-10 2022
+
 name = pi rounding
 helps to round pi number to the decimal place we want
 '''

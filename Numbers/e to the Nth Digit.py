@@ -1,4 +1,7 @@
 '''
+Auteur = Abyselom Tibebe
+Date = 23-10 2022
+
 name = e rounding
 helps to round e number to the decimal place we want
 '''
